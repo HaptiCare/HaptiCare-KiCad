@@ -5474,6 +5474,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5622,7 +5761,7 @@
 	)
 	(text "oled\n"
 		(exclude_from_sim no)
-		(at 195.072 147.828 0)
+		(at 207.264 147.574 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6041,8 +6180,28 @@
 		(uuid "1bfddd69-039c-4d36-b2de-f254294d6350")
 	)
 	(no_connect
+		(at 86.36 237.49)
+		(uuid "2063ca90-de4e-4d0c-a6a4-d840e4175932")
+	)
+	(no_connect
+		(at 86.36 262.89)
+		(uuid "210e0bd0-8090-4c48-86c1-06953ea59cd0")
+	)
+	(no_connect
+		(at 86.36 229.87)
+		(uuid "3145a9f3-140d-4602-82c5-2c8f14c44f28")
+	)
+	(no_connect
 		(at 40.64 135.89)
 		(uuid "32502b11-985e-434e-9026-d82ad26461c0")
+	)
+	(no_connect
+		(at 86.36 227.33)
+		(uuid "34287714-7f25-4d26-aa09-f5b533ad190d")
+	)
+	(no_connect
+		(at 116.84 224.79)
+		(uuid "34a7a5c0-af29-4aef-9838-3622494bc525")
 	)
 	(no_connect
 		(at 116.84 234.95)
@@ -6069,12 +6228,52 @@
 		(uuid "7323e8e6-ff35-4ccc-9b36-7272bd724b5c")
 	)
 	(no_connect
+		(at 116.84 232.41)
+		(uuid "762b2c66-25b3-4de5-8651-9a7d7cf1ade6")
+	)
+	(no_connect
 		(at 40.64 156.21)
 		(uuid "7b958059-e4d7-4a56-8230-ea8cb3879a5e")
 	)
 	(no_connect
+		(at 86.36 234.95)
+		(uuid "8eeb712b-b283-49e6-80a6-4d3afc685017")
+	)
+	(no_connect
+		(at 86.36 224.79)
+		(uuid "98243141-c177-4da5-9318-159975a07537")
+	)
+	(no_connect
+		(at 86.36 257.81)
+		(uuid "a0060bbd-cdba-4086-bb8e-469d6a3a580e")
+	)
+	(no_connect
+		(at 86.36 255.27)
+		(uuid "a91649fc-995d-4dc0-8cea-c5d7f4150ae6")
+	)
+	(no_connect
+		(at 86.36 232.41)
+		(uuid "af1e2d5c-0e8b-4b3b-a11c-8067b810aff7")
+	)
+	(no_connect
 		(at 40.64 151.13)
 		(uuid "b8d3df83-92eb-4054-990d-c88d88a45785")
+	)
+	(no_connect
+		(at 116.84 262.89)
+		(uuid "bc1df4ef-1561-47ac-96ae-fc12ce1ec67d")
+	)
+	(no_connect
+		(at 86.36 252.73)
+		(uuid "bd7a88fb-0e6b-40fb-9da7-cd4fd84d147d")
+	)
+	(no_connect
+		(at 86.36 240.03)
+		(uuid "c4798fa2-bb00-4c27-88ea-cb5675a6c97b")
+	)
+	(no_connect
+		(at 86.36 260.35)
+		(uuid "c60da2dd-00fe-49a3-9df1-dd8ef5637717")
 	)
 	(no_connect
 		(at 40.64 148.59)
@@ -6089,8 +6288,24 @@
 		(uuid "de6700d7-f9b8-4fad-a94a-77d0731836c9")
 	)
 	(no_connect
+		(at 116.84 242.57)
+		(uuid "e5609483-1db1-4c00-a958-516d0f494ac2")
+	)
+	(no_connect
+		(at 86.36 250.19)
+		(uuid "e660506e-a841-4468-987a-d29c39ccb316")
+	)
+	(no_connect
+		(at 86.36 242.57)
+		(uuid "ea9543c6-4bc0-458b-a7b6-a88fd641dae7")
+	)
+	(no_connect
 		(at 40.64 140.97)
 		(uuid "efe43f55-a518-4cb6-98e9-abd66e87bdc9")
+	)
+	(no_connect
+		(at 116.84 222.25)
+		(uuid "f906ac8a-d2a8-48a9-a9b1-e0f6d1dfbbb5")
 	)
 	(wire
 		(pts
@@ -6101,6 +6316,16 @@
 			(type default)
 		)
 		(uuid "01653f0b-e4b7-45f4-af79-a34f5c65b161")
+	)
+	(wire
+		(pts
+			(xy 187.96 154.94) (xy 187.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b76a1e-a3ae-4d13-b292-b3b4e84a0f92")
 	)
 	(wire
 		(pts
@@ -6191,6 +6416,16 @@
 			(type default)
 		)
 		(uuid "066810cf-bdab-4e2e-a5f1-f83394e6c5ad")
+	)
+	(wire
+		(pts
+			(xy 237.49 257.81) (xy 237.49 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bc08cc-8206-4b80-a8ce-0c1f5d020891")
 	)
 	(wire
 		(pts
@@ -6364,6 +6599,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 154.94) (xy 198.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135bdd78-ac0c-407b-ad27-3346811d51f0")
+	)
+	(wire
+		(pts
 			(xy 118.11 54.61) (xy 123.19 54.61)
 		)
 		(stroke
@@ -6404,16 +6649,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 160.02) (xy 88.9 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f4c4e1-64ee-4ff4-9894-d7b00e62c00b")
-	)
-	(wire
-		(pts
 			(xy 173.99 157.48) (xy 198.12 157.48)
 		)
 		(stroke
@@ -6431,6 +6666,16 @@
 			(type default)
 		)
 		(uuid "1a052a4a-7e9a-46f8-a673-8e7ccf917b0b")
+	)
+	(wire
+		(pts
+			(xy 17.78 35.56) (xy 17.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aad53d9-95f3-4715-aa98-f7a093699c07")
 	)
 	(wire
 		(pts
@@ -6494,16 +6739,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 154.94) (xy 198.12 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f8b2c7f-f8e5-431e-bc28-97b6937f458c")
-	)
-	(wire
-		(pts
 			(xy 92.71 138.43) (xy 92.71 142.24)
 		)
 		(stroke
@@ -6534,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 139.7) (xy 274.32 143.51)
+			(xy 274.32 135.89) (xy 274.32 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6581,6 +6816,16 @@
 			(type default)
 		)
 		(uuid "2a65b2fe-e585-44c4-9f8d-856d38cc057c")
+	)
+	(wire
+		(pts
+			(xy 69.85 222.25) (xy 58.42 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebdf3ad-3294-49d8-9985-d899813435bd")
 	)
 	(wire
 		(pts
@@ -6804,6 +7049,26 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 256.54) (xy 172.72 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8e472b-0fae-469d-8570-da84c385fb01")
+	)
+	(wire
+		(pts
+			(xy 110.49 107.95) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fef4285-9739-4d98-823a-506a986eb76a")
+	)
+	(wire
+		(pts
 			(xy 40.64 113.03) (xy 41.91 113.03)
 		)
 		(stroke
@@ -7014,16 +7279,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 222.25) (xy 69.85 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a59eb1c-b58b-4270-b3e5-e7c13cef9d89")
-	)
-	(wire
-		(pts
 			(xy 60.96 115.57) (xy 60.96 113.03)
 		)
 		(stroke
@@ -7201,6 +7456,16 @@
 			(type default)
 		)
 		(uuid "7cf89955-bf0e-4dcf-a510-370870ec4913")
+	)
+	(wire
+		(pts
+			(xy 220.98 22.86) (xy 220.98 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d119798-a7e6-4957-9cc2-3b603ffa444f")
 	)
 	(wire
 		(pts
@@ -7404,6 +7669,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 200.66) (xy 373.38 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fdfdc8-66ad-4cc8-b919-1a7239cfb7d5")
+	)
+	(wire
+		(pts
 			(xy 71.12 138.43) (xy 71.12 142.24)
 		)
 		(stroke
@@ -7411,6 +7686,16 @@
 			(type default)
 		)
 		(uuid "9982ba82-6e3a-4243-a6de-a610e32e5482")
+	)
+	(wire
+		(pts
+			(xy 69.85 160.02) (xy 88.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99de2479-6338-4149-af03-c2531119b057")
 	)
 	(wire
 		(pts
@@ -7454,7 +7739,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 22.86) (xy 219.71 22.86)
+			(xy 195.58 22.86) (xy 220.98 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7514,7 +7799,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 107.95) (xy 109.22 107.95)
+			(xy 92.71 107.95) (xy 110.49 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7574,7 +7859,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 142.24) (xy 370.84 146.05)
+			(xy 370.84 138.43) (xy 370.84 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7594,7 +7879,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 204.47) (xy 278.13 208.28)
+			(xy 278.13 203.2) (xy 278.13 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7734,16 +8019,6 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 205.74) (xy 373.38 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2aaf614-c268-42eb-b910-8dfaf2e6bda9")
-	)
-	(wire
-		(pts
 			(xy 262.89 234.95) (xy 262.89 241.3)
 		)
 		(stroke
@@ -7781,6 +8056,16 @@
 			(type default)
 		)
 		(uuid "c93aadbf-b7ee-4fdb-af60-d24187443a6b")
+	)
+	(wire
+		(pts
+			(xy 58.42 222.25) (xy 58.42 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9adddf2-e4f8-4256-b0b8-2d03985def79")
 	)
 	(wire
 		(pts
@@ -8192,16 +8477,6 @@
 		)
 		(uuid "ffed10fa-c774-4db9-86ed-b0cef2fd2720")
 	)
-	(label "Vbus"
-		(at 17.78 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01d02d77-057e-481f-bbec-1e81aa436d91")
-	)
 	(label "SCK"
 		(at 274.32 73.66 0)
 		(effects
@@ -8212,27 +8487,7 @@
 		)
 		(uuid "11a40782-1c88-4aae-940f-e97466522296")
 	)
-	(label "+5V"
-		(at 373.38 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "143e55e1-b094-4f96-886a-f77c6efb1d88")
-	)
-	(label "+5V"
-		(at 172.72 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20856a23-a9e6-4ea2-8265-3c7155c595ff")
-	)
-	(label "OLED SCL"
+	(label "SCL"
 		(at 71.12 247.65 0)
 		(effects
 			(font
@@ -8272,7 +8527,7 @@
 		)
 		(uuid "38c3baf9-cde1-4816-9bcf-1a3b464dcfad")
 	)
-	(label "OLED SDA"
+	(label "SDA"
 		(at 184.15 162.56 0)
 		(effects
 			(font
@@ -8301,16 +8556,6 @@
 			(justify left bottom)
 		)
 		(uuid "4965a783-dba2-456a-8c55-b760ff7ec094")
-	)
-	(label "+3V3"
-		(at 81.28 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b9945ad-08fc-4b03-a719-cb45904d19d9")
 	)
 	(label "WS"
 		(at 274.32 71.12 0)
@@ -8342,26 +8587,6 @@
 		)
 		(uuid "552acedb-c163-4627-b9ed-c4bced0c448d")
 	)
-	(label "Vbus"
-		(at 104.14 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "58d72817-9900-43db-9f60-e069f99d0b43")
-	)
-	(label "+5V"
-		(at 219.71 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59ffc2a4-7ec6-4228-b7d4-6485f33719bb")
-	)
 	(label "Boot"
 		(at 80.01 222.25 0)
 		(effects
@@ -8372,7 +8597,7 @@
 		)
 		(uuid "5c3c7a37-cf26-446c-bb9b-c0251558a249")
 	)
-	(label "OLED SDA"
+	(label "SDA"
 		(at 71.12 245.11 0)
 		(effects
 			(font
@@ -8381,16 +8606,6 @@
 			(justify left bottom)
 		)
 		(uuid "5e3dc2b1-4c78-4a6a-a394-b8ca9bc5ec8a")
-	)
-	(label "+5V"
-		(at 278.13 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e7c5b76-0491-41a8-b11e-29d0d4adae0a")
 	)
 	(label "GPIO_M3_PWM"
 		(at 116.84 257.81 0)
@@ -8403,7 +8618,7 @@
 		(uuid "5f1ecbf7-2e17-4b4a-80fe-421753965d1a")
 	)
 	(label "USB D-"
-		(at 101.6 120.65 0)
+		(at 109.22 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8472,16 +8687,6 @@
 		)
 		(uuid "a5481739-1a08-4e8e-a433-b9350e836b42")
 	)
-	(label "+5V"
-		(at 274.32 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adcde70a-53ee-4cde-91ee-6f81fd5e1701")
-	)
 	(label "GPIO_M3_PWM"
 		(at 238.76 223.52 0)
 		(effects
@@ -8491,36 +8696,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3b1d8b6-08ef-4a5f-bca6-7f378f34df00")
-	)
-	(label "+5V"
-		(at 370.84 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7cb083e-26a1-4040-901e-0e3021ed06a4")
-	)
-	(label "+3V3"
-		(at 16.51 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b84e80dc-48a9-4462-891b-cebea5a817b5")
-	)
-	(label "+3V3"
-		(at 191.77 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc3bbf5c-877d-465c-85dd-76962cb958b2")
 	)
 	(label "USB D+"
 		(at 116.84 229.87 0)
@@ -8552,26 +8727,6 @@
 		)
 		(uuid "d23f4a38-8332-42ad-ad1a-d03abbe1691d")
 	)
-	(label "+3V3"
-		(at 237.49 259.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7778b67-516d-4990-bb40-3a976725843f")
-	)
-	(label "+3V3"
-		(at 299.72 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dacc8950-1c05-465b-8318-777e0a01bd74")
-	)
 	(label "WS"
 		(at 116.84 245.11 0)
 		(effects
@@ -8592,7 +8747,7 @@
 		)
 		(uuid "df84b5dd-3d15-4e91-8b91-4498cdfd88cf")
 	)
-	(label "OLED SCL"
+	(label "SCL"
 		(at 184.15 160.02 0)
 		(effects
 			(font
@@ -8653,7 +8808,7 @@
 		(uuid "f4c08237-1111-4a58-a7fc-7a781f236fbb")
 	)
 	(label "USB D+"
-		(at 101.6 128.27 0)
+		(at 109.22 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8661,16 +8816,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9b4b053-d826-4a25-b519-79b6d87e7992")
-	)
-	(label "+3V3"
-		(at 370.84 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa30c97c-9ecb-43e0-9f65-5234406a6854")
 	)
 	(label "Boot"
 		(at 81.28 167.64 0)
@@ -9552,7 +9697,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 260.35 66.04 0)
+			(at 264.16 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9848,6 +9993,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 370.84 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28caaa37-770b-4ef0-8aa4-f8f518970676")
+		(property "Reference" "#PWR034"
+			(at 370.84 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 370.84 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 370.84 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "092c2fc4-1f2d-4ee0-ba3a-23d201434e74")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 53.34 115.57 90)
 		(unit 1)
@@ -9869,7 +10092,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 53.34 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11658,6 +11881,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 16.51 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ded6155-3158-4fd5-89dd-34be116ce4c2")
+		(property "Reference" "#PWR037"
+			(at 16.51 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 16.51 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 16.51 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31e054c9-6ed1-404e-a5aa-c9793e73daaf")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 177.8 80.01 0)
 		(unit 1)
@@ -12636,6 +12937,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 110.49 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cdcc73f-d759-463b-80b3-578da1fd514c")
+		(property "Reference" "#PWR042"
+			(at 110.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+Vbus"
+			(at 110.49 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f24d37b-cb0f-4152-a5e5-cae984bb072b")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 278.13 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d4219a3-bfcc-4e1c-9c9d-dfb7c42526ea")
+		(property "Reference" "#PWR02"
+			(at 278.13 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 278.13 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 278.13 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e623eb2-5b29-4c7d-a02c-72a0d126054f")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 36.83 0)
 		(unit 1)
@@ -12876,6 +13333,84 @@
 			(project "HaptiCare design"
 				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 220.98 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f7bab43-f358-45ab-b27f-88fa9e63b521")
+		(property "Reference" "#PWR041"
+			(at 220.98 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 220.98 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 220.98 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8aab4c7b-1134-439d-a4fe-182abbafb6d7")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13293,6 +13828,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 370.84 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e7e1902-e282-46e7-9bc5-10e3705b8417")
+		(property "Reference" "#PWR039"
+			(at 370.84 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 370.84 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 370.84 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd4e414e-1af5-486f-88b0-1527f7edaf08")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 187.96 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e70f09-5fc5-41d3-8e55-577113af284c")
+		(property "Reference" "#PWR035"
+			(at 187.96 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 187.96 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 187.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "444347e5-199e-49c8-a6cb-f31a7a97f901")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 370.84 92.71 0)
 		(unit 1)
@@ -13623,7 +14314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 222.25 270)
+		(at 58.42 237.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13634,7 +14325,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e10757d-acca-49ad-aa41-4eadbd9e6357")
 		(property "Reference" "#PWR016"
-			(at 59.69 222.25 0)
+			(at 58.42 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13645,7 +14336,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 222.2499 90)
+			(at 58.4199 241.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13656,7 +14347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 222.25 0)
+			(at 58.42 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13667,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 222.25 0)
+			(at 58.42 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13678,7 +14369,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 222.25 0)
+			(at 58.42 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13852,6 +14543,84 @@
 			(project "HaptiCare design"
 				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 299.72 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96579d95-4c5f-4492-92ad-4299f8fb7a1b")
+		(property "Reference" "#PWR033"
+			(at 299.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 299.72 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 299.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "418cffce-750b-4c76-b123-bcc109c25f3b")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14187,6 +14956,84 @@
 			(project "HaptiCare design"
 				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 237.49 257.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c9f381-5eed-43ec-aad9-9d1e15a24b58")
+		(property "Reference" "#PWR036"
+			(at 237.49 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 237.49 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 237.49 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f04b68c-7c3d-44f8-aa06-04da742f58d6")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14688,6 +15535,84 @@
 			(project "HaptiCare design"
 				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 172.72 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be8e6060-dd86-439e-ae97-3a97ce2c5959")
+		(property "Reference" "#PWR01"
+			(at 172.72 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 172.72 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 172.72 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "465e953e-2d49-4799-b2c1-2d0ed8cd3845")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -15467,6 +16392,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 274.32 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42c1915-02a4-4eb1-ac84-28ed9368e41f")
+		(property "Reference" "#PWR038"
+			(at 274.32 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 274.32 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 274.32 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fb1b191-da33-4237-8e57-4728349a07d2")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 119.38 67.31 0)
 		(unit 1)
@@ -16121,6 +17124,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 17.78 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eafec95f-e555-4e6d-b1c1-a50f43c7ed3a")
+		(property "Reference" "#PWR043"
+			(at 17.78 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+Vbus"
+			(at 17.78 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 17.78 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0a09345-9d00-40a0-a190-a361b2d590c2")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 72.39 0)
 		(unit 1)
@@ -16445,10 +17526,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f4acf5d2-386e-4201-a3ca-eb7027f24ab5")
 		(property "Reference" "R14"
-			(at 45.72 106.68 90)
+			(at 45.974 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16457,8 +17537,8 @@
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 45.72 109.22 90)
+		(property "Value" "5k1"
+			(at 49.784 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16874,6 +17954,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 373.38 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbeff6af-441c-4c7e-8f98-bdd3fe1e9d40")
+		(property "Reference" "#PWR03"
+			(at 373.38 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 373.38 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62da1689-ab9b-467f-8835-93d5525c7357")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 92.71 134.62 90)
 		(unit 1)
@@ -17029,6 +18187,84 @@
 			(project "HaptiCare design"
 				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffa42b6a-80fd-4493-88fa-9fd0fbf16e38")
+		(property "Reference" "#PWR040"
+			(at 69.85 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 69.85 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c524485-7dda-4436-97f0-ac71b3d43666")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
