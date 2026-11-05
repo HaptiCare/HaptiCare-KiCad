@@ -2,3 +2,10 @@
 *-backups/
 *.lck
 fp-info-cache
+
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.kicad_pcb-bak
+_autosave-*
+~*.lck
