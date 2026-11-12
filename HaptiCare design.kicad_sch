@@ -6419,20 +6419,12 @@
 		(uuid "7ea53dae-98b7-4bae-9e62-6e7a2d3c458d")
 	)
 	(no_connect
-		(at 86.36 234.95)
-		(uuid "8eeb712b-b283-49e6-80a6-4d3afc685017")
-	)
-	(no_connect
 		(at 86.36 224.79)
 		(uuid "98243141-c177-4da5-9318-159975a07537")
 	)
 	(no_connect
 		(at 116.84 255.27)
 		(uuid "ae84e28f-31c1-43a1-aabc-40d1411a5541")
-	)
-	(no_connect
-		(at 86.36 232.41)
-		(uuid "af1e2d5c-0e8b-4b3b-a11c-8067b810aff7")
 	)
 	(no_connect
 		(at 116.84 250.19)
@@ -9330,6 +9322,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 269.24 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bef85cb7-2c08-4003-9cf8-aa5f40b92590")
 		)
@@ -9402,6 +9405,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 29.21 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 29.21 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9642,6 +9656,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 370.84 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 370.84 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -10164,6 +10189,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2480"
+			(at 270.51 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9af07e28-67e2-41b9-847f-d7ad974e80e3")
 		)
@@ -10557,6 +10593,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 30.48 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "313ae8bd-018c-4636-ac99-aba182234a2f")
 		)
@@ -10628,6 +10675,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 16.51 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 16.51 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -10796,6 +10854,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 53.34 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f892417-5b87-47e6-b81f-902b22dbddef")
 		)
@@ -10868,6 +10937,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 182.88 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 182.88 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11059,6 +11139,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2480"
+			(at 363.22 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b9aa03ae-9a3b-4871-a3cd-68ec118cf924")
 		)
@@ -11141,6 +11232,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C131337"
+			(at 378.46 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d9d185b-fcbb-485a-8b95-19195cf671d0")
 		)
@@ -11213,6 +11315,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 375.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C131337"
 			(at 375.92 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -11382,6 +11495,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 151.13 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d6b33b4-1c96-47cb-a95f-babacf4063e2")
 		)
@@ -11457,6 +11581,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 275.59 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 275.59 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -11626,6 +11761,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17408"
+			(at 344.17 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "323d5ea6-2937-4281-8b8a-331b6d91a39a")
 		)
@@ -11784,6 +11930,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17408"
+			(at 243.84 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e33c731c-a3ff-4d73-8ea0-c5e67b65a700")
 		)
@@ -11856,6 +12013,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 165.1 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12092,6 +12260,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C5656610"
+			(at 358.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "ffb2fe43-f52c-496d-8e09-2d051d850694")
 		)
@@ -12183,6 +12362,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 46.99 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf480996-3338-488b-ae50-9f3183df7e26")
 		)
@@ -12255,6 +12445,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 370.84 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 370.84 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -12431,6 +12632,17 @@
 				(justify left top)
 			)
 		)
+		(property "LCSC" "C181692"
+			(at 87.63 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "9e508745-1180-4720-aa4c-1389bfb675fa")
 		)
@@ -12522,6 +12734,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 341.63 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17408"
 			(at 341.63 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -12682,6 +12905,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 177.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13095,6 +13329,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 77.47 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb43005b-9e98-4418-992b-692a9b7b3b8a")
 		)
@@ -13329,6 +13574,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C82942"
+			(at 168.91 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70237825-bfbe-4075-b263-a976709194ba")
 		)
@@ -13420,6 +13676,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17544"
+			(at 130.81 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cc3fceb1-984e-4b01-92a4-de30f3091c28")
 		)
@@ -13492,6 +13759,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28323"
 			(at 190.5 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -13741,6 +14019,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 299.72 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9f6b520-080b-4027-8ca4-3335ad0cb7da")
 		)
@@ -13891,6 +14180,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 40.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 40.64 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -14139,6 +14439,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 167.64 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b85a1485-17b7-4b7a-9b9d-50d2cf1f4fc6")
 		)
@@ -14221,6 +14532,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 195.58 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7fc07875-1a13-487f-ab8b-306f37abf5c6")
 		)
@@ -14293,6 +14615,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 355.6 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 355.6 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14463,6 +14796,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17606"
+			(at 29.21 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71bb5625-c8cf-4210-8941-6acc3b935f22")
 		)
@@ -14612,6 +14956,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17477"
 			(at 149.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14782,6 +15137,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
 			(at 130.81 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14985,7 +15351,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Battery JST-PH"
 			(at 199.39 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14996,7 +15362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 198.12 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15019,6 +15385,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 198.12 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C131337"
 			(at 198.12 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15179,6 +15556,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C271750"
 			(at 59.69 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -15503,6 +15891,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 257.81 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6bf3a7ef-b53e-4328-a157-d856e027442b")
 		)
@@ -15575,6 +15974,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 177.8 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17606"
 			(at 177.8 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15660,6 +16070,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 368.3 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 368.3 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -15990,6 +16411,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17673"
+			(at 71.12 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "56389e24-c8e6-4bd0-9821-71ff87e7570c")
 		)
@@ -16148,6 +16580,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17673"
+			(at 78.74 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "393d81f3-770e-437f-9561-fca1272b6d28")
 		)
@@ -16221,6 +16664,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 119.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C271750"
 			(at 119.38 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16314,6 +16768,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
 			(at 66.04 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -16484,6 +16949,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 339.09 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "68f62102-f793-4e8f-a7dc-6a6e655829d1")
 		)
@@ -16559,6 +17035,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 81.28 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15999"
 			(at 81.28 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -16674,6 +17161,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 57.15 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c06e22ca-d531-4799-891b-4d4b0e10efea")
 		)
@@ -16756,6 +17254,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C131337"
+			(at 283.21 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ade0c304-c6f7-47dd-a09e-b9bde5df5f2f")
 		)
@@ -16826,6 +17335,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 25.4 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3020560"
 			(at 25.4 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -17049,6 +17569,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 369.57 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc088620-acdf-4feb-b12e-0f6efa16b93e")
 		)
@@ -17119,6 +17650,17 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 128.27 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5355380"
 			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17288,6 +17830,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 262.89 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e5ac3e4-4bdd-468c-bbbe-97e284429cb8")
 		)
@@ -17359,6 +17912,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 274.32 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 274.32 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -17473,6 +18037,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2480"
+			(at 365.76 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "57d4db3a-3f67-443f-97f7-a621483eacbc")
 		)
@@ -17545,6 +18120,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 267.97 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C149504"
 			(at 267.97 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17888,7 +18474,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c97dde6d-66bf-4283-90d4-617732b42458")
 		(property "Reference" "C15"
@@ -18104,6 +18690,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 367.03 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ba4f530-bccd-4b65-b6cd-7610214deac9")
 		)
@@ -18198,6 +18795,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 265.43 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
 			(at 265.43 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -18367,6 +18975,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 358.14 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d9de4a5-3970-4dd1-8d38-fa5562da1877")
 		)
@@ -18442,6 +19061,17 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 270.51 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
 			(at 270.51 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -18615,6 +19245,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 119.38 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11c46645-e556-46a8-b450-faf5ddb65c10")
 		)
@@ -18775,6 +19416,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 46.99 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
 			(at 46.99 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -19009,6 +19661,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "LCSC" "C5656610"
+			(at 287.02 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -19570,6 +20233,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C131337"
+			(at 278.13 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "06d8a609-fb5c-489c-ad6f-55408a394062")
 		)
@@ -19640,6 +20314,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 248.92 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17408"
 			(at 248.92 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -19806,6 +20491,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C27834"
+			(at 45.72 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "35812447-1eb6-4e81-bc64-15c2fcef334c")
 		)
@@ -19878,6 +20574,17 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2913201"
 			(at 101.6 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -20077,6 +20784,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 34.29 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C271750"
 			(at 34.29 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -20400,6 +21118,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 64.77 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a99abe89-7009-4790-9cff-8e9486516a70")
 		)
@@ -20469,6 +21198,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 46.99 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
 			(at 46.99 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -20571,6 +21311,1087 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 213.36 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "677eceea-cda8-4f41-8b8d-b9cc0cd89d40")
+		(property "Reference" "Q5"
+			(at 219.71 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 219.71 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 218.44 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 218.44 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 213.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20917"
+			(at 213.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c966ab29-5c0c-4c57-8fa5-90e94e4c1838")
+		)
+		(pin "3"
+			(uuid "7678b7b2-02ed-464d-8b66-1b28588ec3da")
+		)
+		(pin "2"
+			(uuid "7fd22f8f-918f-475b-b772-3a69755fab38")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Device:R_US")
+		(at 198.12 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dfb83da-e8e9-4bfc-a5e1-52e396b03730")
+		(property "Reference" "R22"
+			(at 198.12 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 198.12 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 198.374 85.344 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 198.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17408"
+			(at 198.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c1ced52-bd5c-4f77-a71c-cefde61761cc")
+		)
+		(pin "2"
+			(uuid "4f757d9a-d748-4f09-ab11-2c30b84a7181")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Device:R_US")
+		(at 204.47 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e738c1bf-ca01-404e-9d9f-bb34332af679")
+		(property "Reference" "R23"
+			(at 207.01 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.01 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 205.486 90.424 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 204.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 204.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "200833db-9bd1-4bec-8e86-166999721e35")
+		)
+		(pin "1"
+			(uuid "9cb80c77-e627-4e48-a68d-c245f5673fe0")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "power:GND")
+		(at 204.47 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24d2aa5b-12d2-49bb-aaf8-2ff051daa042")
+		(property "Reference" "#PWR058"
+			(at 204.47 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdc3107d-967b-477a-b243-c266bff2498b")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "power:GND")
+		(at 215.9 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1f9c0b3-9455-44bb-982e-414e95ab93fe")
+		(property "Reference" "#PWR059"
+			(at 215.9 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3dd39df-9623-4c1a-9760-6be6b883b3c9")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "power:+5V")
+		(at 30.48 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11032dc1-0492-4fa0-a5be-3ce16487ce68")
+		(property "Reference" "#PWR060"
+			(at 30.48 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT"
+			(at 30.48 254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 30.48 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d933e17-5f13-4abf-8c44-b114ce56f7e1")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Device:R_US")
+		(at 30.48 262.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e66ab4e-5120-4102-a334-7fd713dd4ea8")
+		(property "Reference" "R24"
+			(at 33.02 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 33.02 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 31.496 263.144 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 30.48 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C149504"
+			(at 30.48 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f87c25e2-dd45-426b-a27b-ac5657390e9b")
+		)
+		(pin "1"
+			(uuid "9545e5d1-dee2-4c17-a059-86ff70028e30")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Device:R_US")
+		(at 30.48 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1dbd073-6045-4770-b868-a76653928721")
+		(property "Reference" "R25"
+			(at 33.02 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 33.02 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 31.496 270.764 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 30.48 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C149504"
+			(at 30.48 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4546c96-3edb-41e7-a607-feebfbfadee8")
+		)
+		(pin "1"
+			(uuid "a6fc3bb5-4e14-41a2-b24d-52f728402855")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "Device:C")
+		(at 38.1 270.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49c55f92-ef92-497a-b0b6-6d281230b4d8")
+		(property "Reference" "C21"
+			(at 41.91 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 41.91 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 39.0652 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 38.1 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e4450a79-1782-470a-9af2-8f1ee60ef2c2")
+		)
+		(pin "1"
+			(uuid "18a3cef6-9aca-44de-a4b3-f5e154d72349")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "power:GND")
+		(at 30.48 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20647b31-316c-47e4-9563-eae2d3fc4d47")
+		(property "Reference" "#PWR061"
+			(at 30.48 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb873575-f9c4-4355-bfe4-2c2aa6271159")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)	(symbol
+		(lib_id "power:GND")
+		(at 38.1 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58b289e9-955d-4f89-8bc1-7e61e7bccf1a")
+		(property "Reference" "#PWR062"
+			(at 38.1 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec1e6bea-c5e4-4cf6-9c5b-8aa5a0e1064a")
+		)
+		(instances
+			(project "HaptiCare design"
+				(path "/31612522-bfc9-45d2-bcdf-3b5cbfa0530a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)	(wire
+		(pts
+			(xy 201.93 86.36) (xy 204.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625b3a4c-c5b8-454a-8bf3-3d7402fc20e0")
+	)
+	(wire
+		(pts
+			(xy 204.47 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d4e3d1-d3b7-4bf3-9042-07f43e9bb184")
+	)
+	(junction
+		(at 204.47 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c1feb17-e220-4cee-b9a2-3e9662744adb")
+	)
+	(label "KEY_BTN"
+		(at 215.9 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "973b4fe0-981c-4d3e-8f91-77f67d7b7614")
+	)
+	(label "KEY_BTN"
+		(at 119.38 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a9575e8-b852-43d6-a9c5-e4cd29b689d7")
+	)
+	(label "KEEPALIVE"
+		(at 194.31 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b71e0f36-9ec8-4c1c-9e7c-705a575f2acc")
+	)
+	(text "Keep-alive: IO5 -> KEY"
+		(exclude_from_sim no)
+		(at 193.04 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a46257b-2689-40cc-88ad-0fe9a0964d81")
+	)
+	(wire
+		(pts
+			(xy 30.48 266.7) (xy 38.1 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d12b95-33fa-435b-9957-8d275b4dd418")
+	)
+	(wire
+		(pts
+			(xy 38.1 266.7) (xy 45.72 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f41ec4-f2c0-45c7-a452-ccf95799f9c8")
+	)
+	(junction
+		(at 30.48 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e39d70-804d-44b7-b48b-dd5e082ac0ed")
+	)
+	(junction
+		(at 38.1 266.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d5cd66-0876-4c89-96c9-c8e7bede0f38")
+	)
+	(label "BAT_SENSE"
+		(at 45.72 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05c2a30a-f40a-4675-ae8f-b76a1e12dd6b")
+	)
+	(label "BAT_SENSE"
+		(at 86.36 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbb2a843-0157-425e-aa6b-1b52ed04f9fd")
+	)
+	(label "KEEPALIVE"
+		(at 86.36 234.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e26a84d4-2ee1-4abb-8f27-193007903943")
+	)
+	(text "BAT sense: BAT/2 -> IO4"
+		(exclude_from_sim no)
+		(at 20.32 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fdec38d-6077-4052-b45c-d67c1bbecea2")
 	)
 	(sheet_instances
 		(path "/"
